@@ -1,7 +1,6 @@
 def oppervlakte_kubus(z):
-    """ print de oppervlakte van een kubus met zijde z 
-            Tip! Een kubus heeft 6 vlakken
-    """
+    Som = z * z * 6
+    print (Som)
 
 
 oppervlakte_kubus(4)    # 96

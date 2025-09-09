@@ -1,5 +1,11 @@
 def vergelijker(x,y):
-    "PRINT of x groter, kleiner of gelijk is aan y"
+    if x > y:
+        Grootte = "Groter"
+    elif x == y:
+        Grootte = "Even"
+    else:
+        Grootte = "Kleiner"
+    print(Grootte)
 
 
 vergelijker(4,3) # 4 is groter dan 3
