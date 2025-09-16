@@ -8,3 +8,4 @@ laptop_korneel = {
     "supplier": "???",
     "supplier_2": "bol.com"
 }
+print (laptop_korneel["model",["name"]])

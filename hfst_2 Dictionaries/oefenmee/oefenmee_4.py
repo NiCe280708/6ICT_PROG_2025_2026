@@ -4,3 +4,8 @@ fruitmand = { # Sleutel is fruit, element is aantal
     "banaan": 3,
     "kers": 50
 }
+welk_fruit = input("Welk fruit zoek je")
+if welk_fruit in fruitmand:
+    print(f"{fruitmand[welk_fruit]} {welk_fruit}")
+else:
+    print("kon niet vinden")
