@@ -4,3 +4,6 @@ filmscores = {
     "avatar": 3,
     "oppenheimer": 7.5
 }
+
+for sleutel,waarde in filmscores.items():
+    print(f"{sleutel} heeft {waarde}")

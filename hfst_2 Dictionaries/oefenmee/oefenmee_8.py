@@ -7,3 +7,8 @@ steden_temp = { # Sleutel is stad, waarde is temp
     "Luik": 23,
     "Namen": 24
 }
+while True:
+
+    Input_vraag = input("Welke stad")
+    Temperatuur = steden_temp.get(Input_vraag, "??")
+    print(Temperatuur)
