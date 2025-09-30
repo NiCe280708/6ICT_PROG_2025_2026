@@ -8,4 +8,9 @@ laptop_korneel = {
     "supplier": "???",
     "supplier_2": "bol.com"
 }
-print (laptop_korneel["model",["name"]])
+laptop_korneel["status"] = "Deployed"
+laptop_korneel.pop["supplier_2"]
+laptop_korneel["supplier"] = "signpost"
+
+# geneste dictionaries
+

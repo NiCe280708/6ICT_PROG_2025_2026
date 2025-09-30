@@ -13,3 +13,7 @@ grootste_steden = {
         'Hamburg': 1841179,
     }
 }
+for landen in grootste_steden:
+    print(f"Grootste steden in {landen} zijn")
+    for hoofdsteden in grootste_steden[landen]:
+        print(f"{hoofdsteden} met {grootste_steden[landen][hoofdsteden]}")
